@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이력서 작성</title>
+</head>
+<body>
+
+<h1>2022년 상반기 연구원(석사이상) 공개채용</h1>
+<hr>
+&nbsp;<input type="button" value="← 이전 페이지(동의서)로 돌아가기">&nbsp;&nbsp;<input type="button" value="다음 →">&nbsp;
+<p>
+<h4>아래 양식을 작성하여 지원바랍니다.</h4>
+<table border="" style="border: 1px solid grey; width: 600px; height: 900px">
+<tr>
+ <td colspan="5" style="font-size: 40px; text-align: center; height: 60px;"><strong>이 력 서</strong></td>
+</tr>
+<tr>
+ <td rowspan="2" style="text-align: center; width: 100px; height: 60px; background-color: lightgrey;"><b>성  명</b></td>
+ <td rowspan="2" style="width: 200px;">(한글)</td> 
+ <td style="text-align: center; width: 100px; height: 30px;">(한문)</td> 
+ <td colspan="2" style="width: 200px; height: 30px;"></td> 
+</tr>
+<tr>
+ <td style="text-align: center; width: 100px; height: 30px;">(영문)</td>
+ <td colspan="2"></td>
+</tr>
+<tr>
+ <td style="text-align: center; height: 30px; background-color: lightgrey;"><b>소속 및 직함</b></td>
+ <td colspan="4"></td>
+</tr>
+<tr>
+ <td style="text-align: center; height: 30px; background-color: lightgrey;"><b>생년월일</b></td>
+ <td colspan="4"></td>
+</tr>
+<tr>
+ <td style="text-align: center; height: 30px; background-color: lightgrey;"><b>주  소</b></td>
+ <td colspan="4"></td>
+</tr>
+<tr>
+ <td style="text-align: center; height: 30px; background-color: lightgrey;"><b>전  화</b></td>
+ <td colspan="4"></td>
+</tr>
+<tr>
+ <td style="text-align: center; height: 30px; background-color: lightgrey;"><b>이 메 일</b></td>
+ <td colspan="4"></td>
+</tr>
+<tr>
+ <td rowspan="4" style="text-align: center; weight: 20px; height: 100px; background-color: grey;"><b>학   력</b></td>
+ <td style="text-align: center; weight: 170px; height: 15px; background-color: lightgrey;"><b>기 간</b></td>
+ <td style="text-align: center; weight: 170px; height: 15px; background-color: lightgrey;"><b>학 교 명</b></td>
+ <td style="text-align: center; weight: 170px; height: 15px; background-color: lightgrey;"><b>전 공</b></td>
+ <td style="text-align: center; weight: 70px; height: 15px; background-color: lightgrey;"><b>학 위</b></td>
+</tr>
+<tr>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 70px; height: 30px;"></td>
+</tr>
+<tr>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 70px; height: 30px;"></td>
+</tr>
+<tr>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 170px; height: 30px;"></td>
+ <td style="weight: 70px; height: 30px;"></td>
+</tr>
+<tr>
+ <td rowspan="3" style="text-align: center; background-color: grey;"><b>연 구 논 문</b></td>
+ <td colspan="4" style="text-align: center; height: 15px; background-color: lightgrey;"><b>주 요 논 문<b></td>
+</tr>
+<tr>
+ <td colspan="4" style="height: 30px;"></td>
+</tr>
+<tr>
+ <td colspan="4" style="height: 30px;"></td>
+</tr>
+<tr>
+ <td rowspan="3" style="text-align: center; background-color: grey;"><b>학 술 발 표</b></td>
+ <td colspan="2" style="text-align: center; height: 15px; background-color: lightgrey;"><b>학술대회 발표 제목</b></td>
+ <td style="text-align: center; height: 15px; background-color: lightgrey;"><b>발표기관</b></td>
+ <td style="text-align: center; height: 15px; background-color: lightgrey;"><b>발표일</b></td>
+</tr>
+<tr>
+ <td colspan="2" style="height: 40px;"></td>
+ <td style="height: 40px;"></td>
+ <td style="height: 40px;"></td>
+</tr>
+<tr>
+ <td colspan="2" style="height: 40px;"></td>
+ <td style="height: 40px;"></td>
+ <td style="height: 40px;"></td>
+</tr>
+<tr>
+ <td rowspan="5" style="text-align: center; background-color: grey;"><b>경 력 사 항</b></td>
+ <td style="text-align: center; height: 15px; background-color: lightgrey;"><b>기  간</b></td>
+ <td colspan="2" style="text-align: center; height: 15px; background-color: lightgrey;"><b>근 무 지</b></td>
+ <td style="text-align: center; height: 15px; background-color: lightgrey;"><b>직  위</b></td>
+</tr>
+<tr>
+ <td style="height: 30px;"></td>
+ <td colspan="2" style="height: 30px;"></td>
+ <td style="height: 30px;"></td>
+</tr>
+<tr>
+ <td style="height: 30px;"></td>
+ <td colspan="2" style="height: 30px;"></td>
+ <td style="height: 30px;"></td>
+</tr>
+<tr>
+ <td style="height: 30px;"></td>
+ <td colspan="2" style="height: 30px;"></td>
+ <td style="height: 30px;"></td>
+</tr>
+<tr>
+ <td style="height: 30px;"></td>
+ <td colspan="2" style="height: 30px;"></td>
+ <td style="height: 30px;"></td>
+</tr>
+</table>
+<pre>                       위 기재사항은 사실과 다름이 없음. 
+
+
+                                                       년    월    일           (인)
+
+                                  <input type="button" value="작성내용 저장">
+
+</pre>
+<p>
+<span style="color: red; font-size: 15px; background-color: yellow;">
+반드시 '작성내용 저장'을 클릭 후, 상단의 '다음'버튼을 클릭해 주세요.</span>
+<p>
+</body>
+</html>
