@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+<style type="text/css">
+ *{margin: 0px; padding: 5px 0px; font-family: monospace; }
+ body{background-color: lavenderblush; width: auto; height: auto;}
+ header{background: lavenderblush; color: black;}
+ div{margin: 0px; padding: 0px;}
+ footer{background: dimgray; color: white; clear: both; text-align: center;}
+ .login1{
+   color: darkblue;
+   width: 100%;
+   text-align: center;
+   background: linear-gradient(to top, dimgray, lavenderblush);
+ }
+  #loginhead{
+   color: black;
+   text-align: center;
+   font-size: 40px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+   font-family: sans-serif;
+ }
+ #loginb{width: 200px; background-color: darkmagenta; color: white; font-weight: bold;}
+ #signb{width: 75px; background-color: palevioletred; color: white; font-weight: bold;
+ 		 margin-top: 7px; margin-bottom: 40px;}
+ #pwdb{width: 115px; background-color: palevioletred; color: white; font-weight: bold; 
+ 		margin-top: 7px; margin-bottom: 40px;}
+ #idbox{margin-top: 10px;}
+ #pwbox{margin: 7px auto 7px;}
+ #loginb:hover {background: white; color: darkmagenta; }
+ #signb:hover, #pwdb:hover {background: white; color: palevioletred;}
+</style>
+<script type="text/javascript">
+function check() {
+	var id=document.input.id.value;
+	var pwd=document.input.pwd.value;
+	if(id == "" ){
+		alert("아이디를 입력하세요.");
+		document.input.id.focus(); 
+		return;
+	}
+	if(pwd=="") {
+		alert("비밀번호를 입력하세요.");
+		document.input.pwd.focus();
+		return;
+	}
+	document.input.submit();	
+}
+</script>
+</head>
+<body>
+<header>
+ <table>
+  <tr>
+   <td><a href="index5.html"><img alt="로고이미지" src="../images/03.jpg" width="90px" height="70px">
+</a></td>
+  </tr>
+ </table>
+</header>
+
+<div class="login1">
+<p><p>
+<h2 id="loginhead">로그인</h2>
+<form name="input" method="post" action="index5-login_result.jsp">
+ <input id="idbox" type="text" name="id" placeholder="아이디(이메일)" > <br>
+ <input id="pwbox" type="password" name="pwd"  placeholder="비밀번호"> <br>
+ <p>
+ <input type="checkbox" name="option" value="아이디저장" > 아이디 저장&nbsp;&nbsp; 
+ <input type="checkbox" name="option" value="로그인유지"> 로그인 유지<br>
+ <P>
+ <p>
+ <input id="loginb" type="button" name="login" value="로그인" onclick="check()"></input><br>
+ <input id="signb" type="button" name="sign" value="회원가입"></input> 
+ <input id="pwdb" type="button" name="findpw" value="비밀번호 찾기"></input>
+</form>
+<p>
+</div>
+
+<footer>
+ <h6>홍길동상담조아 | 문의 : 010-1234-1234 | 대표 : 홍길동<br> 
+ Copyright &copy; 2022 honggildongsangdamjoha.</h6>
+</footer>
+</body>
+</html>
